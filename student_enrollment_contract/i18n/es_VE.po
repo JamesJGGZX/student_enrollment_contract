@@ -1,0 +1,839 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* student_enrollment_contract
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20240125\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-31 00:30+0000\n"
+"PO-Revision-Date: 2025-03-31 00:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2 oe_edit_only\" aria-label=\"Arrow "
+"icon\" title=\"Arrow\"/>"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "<span class=\"o_stat_info\">Add payment</span>"
+msgstr "<span class=\"o_stat_info\">Agregar pago</span>"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_needaction
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_exception_decoration
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_state
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_type_icon
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_add_contract_payment
+msgid "Add Contract Payment"
+msgstr "Agregar pago de contrato"
+
+#. module: student_enrollment_contract
+#: model:ir.actions.act_window,name:student_enrollment_contract.add_contract_payment_wizard_action
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.add_contract_payment_form_view
+msgid "Add contract payment"
+msgstr "Agregar pago de contrato"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.add_contract_payment_form_view
+msgid "Add payment"
+msgstr "Agregar pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_attachment_count
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__available_teacher_ids
+msgid "Available Teachers"
+msgstr "Profesores disponibles"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__add_contract_payment__payment_method__bank
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__contract_payment_line__payment_method__bank
+msgid "Bank"
+msgstr "Banco"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.add_contract_payment_form_view
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__state__cancelled
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__add_contract_payment__payment_method__cash
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__contract_payment_line__payment_method__cash
+msgid "Cash"
+msgstr "Efectivo"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__state__confirmed
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__contract_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__contract_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__contract_id
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__contract_lines
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.enrollment_subject_record_form_view
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Contract Lines"
+msgstr "Líneas de contrato"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__contract_number
+msgid "Contract Number"
+msgstr "Número de contrato"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "Contracts by payment state"
+msgstr "Contrato por estado de pago"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.js:0
+#, python-format
+msgid "Contracts by payment state report"
+msgstr "Contratos por estado de pago"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "Contracts by students"
+msgstr "Contratos por estudiantes"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.js:0
+#, python-format
+msgid "Contracts by students report"
+msgstr "Contratos por estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__course_id
+msgid "Course"
+msgstr "Curso"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__course_code
+msgid "Course Code"
+msgstr "Código"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__course_credits
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_product__course_credits
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_template__course_credits
+msgid "Course Credits"
+msgstr "Créditos"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.enrollment_subject_record_form_view
+msgid "Course Lines"
+msgstr "Líneas de curso"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__course_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__course_name
+msgid "Course Name"
+msgstr "Nombre del curso"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__course_number
+msgid "Course Number"
+msgstr "Número de curso"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__course_by_student_id
+msgid "Course by Student"
+msgstr "Curso por estudiante"
+
+#. module: student_enrollment_contract
+#: model:ir.actions.act_window,name:student_enrollment_contract.action_open_enrollment_subject_record
+#: model:ir.ui.menu,name:student_enrollment_contract.menu_enrollment_subject_record
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.enrollment_subject_record_tree_view
+msgid "Course by students"
+msgstr "Curso por estudiantes"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.enrollment_subject_record_form_view
+msgid "Course by students form"
+msgstr "Curso por estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__courses_line_ids
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_enrollment_subject_record
+msgid "Courses By Students"
+msgstr "Cursos por estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_enrollment_subject_line
+msgid "Courses By Students Lines"
+msgstr "Líneas de cursos por estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__create_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__create_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__create_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__create_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__create_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__create_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__create_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__create_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__create_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__create_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__add_contract_payment__payment_method__credit_card
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__contract_payment_line__payment_method__credit_card
+msgid "Credit Card"
+msgstr "Tarjeta de crédito"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__currency_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__currency_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__currency_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: student_enrollment_contract
+#: model:ir.actions.client,name:student_enrollment_contract.action_open_student_enrollment_contract_dashboard
+#: model:ir.ui.menu,name:student_enrollment_contract.menu_student_enrollment_contracts_dashboard
+msgid "Dashboard"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__display_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__display_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__display_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__display_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__display_name
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__state__done
+msgid "Done"
+msgstr "Hecho"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__state__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__eighth
+msgid "Eighth"
+msgstr "Octavo"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__fifth
+msgid "Fifth"
+msgstr "Quinto"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__date_end
+msgid "Finish Date"
+msgstr "Fecha de finalización"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__first
+msgid "First"
+msgstr "Primero"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_follower_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_partner_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__activity_type_icon
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__fourth
+msgid "Fourth"
+msgstr "Cuarto"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__has_message
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__id
+msgid "ID"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__course_number__ii
+msgid "II"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_exception_icon
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__activity_exception_icon
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__message_needaction
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__message_has_error
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__message_has_sms_error
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__message_has_error
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_is_follower
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_product__is_subject
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_template__is_subject
+msgid "Is Subject"
+msgstr "¿Es materia?"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment____last_update
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record____last_update
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line____last_update
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract____last_update
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line____last_update
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__write_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__write_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__write_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__write_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__write_uid
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__write_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__write_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__write_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__write_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__write_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_main_attachment_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_has_error
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "Most requested subjects"
+msgstr "Materias más solicitadas"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.js:0
+#, python-format
+msgid "Most requested subjects report"
+msgstr "Reporte de materias más solicitadas"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "Most requested teachers"
+msgstr "Profesores más solicitados"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__my_activity_date_deadline
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: student_enrollment_contract
+#. odoo-python
+#: code:addons/student_enrollment_contract/models/enrollment_subject_record.py:0
+#: code:addons/student_enrollment_contract/models/student_enrollment_contract.py:0
+#: code:addons/student_enrollment_contract/models/student_enrollment_contract.py:0
+#: code:addons/student_enrollment_contract/models/student_enrollment_contract.py:0
+#: code:addons/student_enrollment_contract/models/student_enrollment_contract.py:0
+#: code:addons/student_enrollment_contract/models/contract_payment_line.py:0
+#: code:addons/student_enrollment_contract/models/contract_payment_line.py:0
+#: code:addons/student_enrollment_contract/models/contract_payment_line.py:0
+#: code:addons/student_enrollment_contract/models/contract_payment_line.py:0
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_date_deadline
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_summary
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_type_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__ninth
+msgid "Ninth"
+msgstr "Noveno"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__payment_state__not_paid
+msgid "Not Paid"
+msgstr "Sin pagar"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Not paid"
+msgstr "Sin pagar"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__notes
+msgid "Notes"
+msgstr "Notas"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_needaction_counter
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_has_error_counter
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__message_needaction_counter
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__message_has_error_counter
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__payment_state__paid
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__student_enrollment_contract__payment_state__partially_paid
+msgid "Partially Paid"
+msgstr "Parcialmente pagado"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Partially paid"
+msgstr "Parcialmente pagado"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__payment_amount
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__payment_amount
+msgid "Payment Amount"
+msgstr "Monto del pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__payment_date
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__payment_date
+msgid "Payment Date"
+msgstr "Fecha de pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__payment_lines
+msgid "Payment Lines"
+msgstr "Líneas de pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__payment_method
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__payment_method
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__payment_note
+msgid "Payment Note"
+msgstr "Nota de pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_payment_line__payment_number
+msgid "Payment Number"
+msgstr "Número de pago"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__payment_state
+msgid "Payment State"
+msgstr "Estado de pago"
+
+#. module: student_enrollment_contract
+#. odoo-python
+#: code:addons/student_enrollment_contract/wizards/add_contract_payment.py:0
+#, python-format
+msgid "Payment amount is greater than total to pay."
+msgstr "El monto del pago es mayor que el total a pagar."
+
+#. module: student_enrollment_contract
+#. odoo-python
+#: code:addons/student_enrollment_contract/wizards/add_contract_payment.py:0
+#, python-format
+msgid "Payment of %s %s added."
+msgstr "Pago de %s %s agregado."
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__period
+msgid "Period"
+msgstr "Período"
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_product_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__activity_user_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_res_partner__role
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_res_users__role
+msgid "Role"
+msgstr "Rol"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__message_has_sms_error
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__second
+msgid "Second"
+msgstr "Segundo"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Set to draft"
+msgstr "Establecer como borrador"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__seventh
+msgid "Seventh"
+msgstr "Séptimo"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__sixth
+msgid "Sixth"
+msgstr "Sexto"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__date_start
+#, python-format
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__state
+msgid "State"
+msgstr "Estado"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__activity_state
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__student_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__student_id
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__res_partner__role__student
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_tree_view
+msgid "Student contracts"
+msgstr "Contratos de estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.actions.act_window,name:student_enrollment_contract.action_open_student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_contract_payment_line
+msgid "Students Contract"
+msgstr "Contrato de estudiantes"
+
+#. module: student_enrollment_contract
+#. odoo-javascript
+#: code:addons/student_enrollment_contract/static/src/components/student_enrollment_contract_dashboard/StudentsContractDashboard.xml:0
+#, python-format
+msgid "Students Contract Dashboard"
+msgstr "Dashboard de contratos de estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model,name:student_enrollment_contract.model_contract_subject_line
+msgid "Students Contract Lines"
+msgstr "Líneas de contrato de estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.ui.menu,name:student_enrollment_contract.student_enrollment_contract_main_menu
+msgid "Students Contract Management"
+msgstr "Gestión de contratos de estudiantes"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Students contract form"
+msgstr "Formulario de contrato de estudiantes"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__subject_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__subject_id
+msgid "Subject"
+msgstr "Materia"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__price_subtotal
+msgid "Subtotal"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_line__course_teacher_id
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_product__course_teacher_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_product_template__course_teacher_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__teacher_id
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__res_partner__role__teacher
+msgid "Teacher"
+msgstr "Docente"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__tenth
+msgid "Tenth"
+msgstr "Décimo"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__terms
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Terms and conditions..."
+msgstr "Términos y condiciones..."
+
+#. module: student_enrollment_contract
+#: model:ir.model.constraint,message:student_enrollment_contract.constraint_enrollment_subject_record_course_number_student_period_uniq
+msgid "The course number must be unique per student and period!"
+msgstr "El número de curso debe ser único por estudiante y período."
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields.selection,name:student_enrollment_contract.selection__enrollment_subject_record__period__third
+msgid "Third"
+msgstr "Tercero"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__amount_total
+msgid "Total"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_add_contract_payment__total_to_pay
+msgid "Total to Pay"
+msgstr "Total a pagar"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.add_contract_payment_form_view
+msgid "Total to pay"
+msgstr "Total a pagar"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__activity_exception_decoration
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_contract_subject_line__price_unit
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: student_enrollment_contract
+#: model_terms:ir.ui.view,arch_db:student_enrollment_contract.student_enrollment_contract_form_view
+msgid "Validity"
+msgstr "Validez"
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_enrollment_subject_record__website_message_ids
+#: model:ir.model.fields,field_description:student_enrollment_contract.field_student_enrollment_contract__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: student_enrollment_contract
+#: model:ir.model.fields,help:student_enrollment_contract.field_enrollment_subject_record__website_message_ids
+#: model:ir.model.fields,help:student_enrollment_contract.field_student_enrollment_contract__website_message_ids
+msgid "Website communication history"
+msgstr ""
