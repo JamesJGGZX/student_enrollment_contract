@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+    
+        <menuitem
+            id="students_contract_main_menu"
+            name="Student Enrollment Contract"
+            web_icon="student_enrollment_contract,static/description/icon.png"
+            action="action_open_students_contract_management"
+            sequence="1">
+            <menuitem
+                    id="menu_students_contracts_dashboard"
+                    name="Dashboard"
+                    action="action_open_students_contract_dashboard"
+                    sequence="2"/>
+            <menuitem
+                    id="menu_course_by_students"
+                    name="Course by students"
+                    action="action_open_course_by_students"
+                    sequence="3"/>
+        </menuitem>
+    
+    </data>
+</odoo>
